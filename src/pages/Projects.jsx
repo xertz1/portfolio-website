@@ -18,7 +18,7 @@ const projects = [
     {
         title: "Portfolio Website",
         image: portfolioImg,
-        link: "https://github.com/xertz1/portfolio_website"
+        link: "https://github.com/xertz1/portfolio-website"
     },
     {
         title: "Sentiment Analysis",
