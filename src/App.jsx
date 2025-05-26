@@ -9,7 +9,7 @@ import './components/index.css'
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/portfolio-website'>
         <NavBar />
         <Routes>
             <Route path="/" element= {<Home />} />
