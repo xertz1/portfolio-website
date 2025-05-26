@@ -1,0 +1,116 @@
+.about-section {
+    position: relative;
+    padding: 5rem 1rem;
+    background-color: #e6f5dd;
+}
+  
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative; 
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+    .about-wrapper {
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .text-wrapper {
+        text-align: center;
+    }
+
+    .section-divider {
+        margin: 0 auto;
+    }
+
+}
+  
+  
+.image-wrapper {
+    position: relative;
+    
+}
+  
+.profile {
+    width: 30vw;
+    min-width: 300px;
+    height: auto;
+    border-radius: 1%;
+    border: 5px solid #537D5D;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+  
+.profile:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+  
+.text-wrapper {
+    max-width: 500px;
+}
+
+.text-wrapper p {
+    color:#9ebc8a;
+    padding: 1rem 0;;
+}
+  
+.intro-text {
+    font-size: 2.5rem;
+    color: #537d5d;
+}
+  
+.section-divider {
+    width: 60%;
+    height: 2px;
+    background-color: #9ebc8a;
+    border: none;
+}
+
+.skills-grid {
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.skills-section h2 {
+    padding: 1rem 0;
+    color: #537D5D;
+}
+
+.skill:hover .circle-skill-icon {
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+}
+
+.circle-skill-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #537D5D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.skill-icon {
+    font-size: 2rem;         
+    color: white;
+}
+
+
+  

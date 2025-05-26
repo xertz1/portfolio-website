@@ -1,0 +1,83 @@
+/* Footer base styles */
+.footer {
+    background-color: #DDF6D2;
+    padding: 2rem 1rem;
+    
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+   
+
+}
+  
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+  
+ 
+.footer-section p {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+  
+
+.footer-section a {
+    color: #537D5D;;
+    text-decoration: none;
+    
+}
+
+.footer-section a:hover {
+    color :#9EBC8A;
+}
+
+.circle-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #537D5D;
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.email-button button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #537D5D;;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-button button:hover {
+    background-color: #9EBC8A;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #537D5D;
+    width: 100%;
+}
+
+.title {
+    color:#537D5D;
+}
