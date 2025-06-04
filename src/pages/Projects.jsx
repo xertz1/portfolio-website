@@ -44,7 +44,7 @@ const projects = [
 
 const Projects = () => {
     return (
-        <section className="project-section">
+        <section className="project-section full-height-page">
             <div className="project-wrapper">
                 <div className="project-header">
                     <h1>My Projects</h1>
@@ -53,8 +53,9 @@ const Projects = () => {
 
                 <div className="project-grid">
                     {projects.map((proj, index) => (
-                            <motion.div 
-                            className='project-grid'
+                            <motion.div
+                            key={index}
+                            className='project-card'
                             transition={{ duration: 0.6, ease: "easeOut", delay: index * 0.2}}
                             initial= {{opacity: 0, y: 40}}
                             animate= {{opacity: 1, y: 0}}
