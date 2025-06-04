@@ -1,4 +1,6 @@
 .contact-form {
+    display: flex;
+    flex: 1;
     max-width: 500px;
     margin: 0 auto;
     padding: 2rem;
@@ -11,6 +13,9 @@
     margin-bottom: 2rem;
     color: #537D5D;
 }
+
+
+  
   
 .contact-form input,
 .contact-form textarea {
