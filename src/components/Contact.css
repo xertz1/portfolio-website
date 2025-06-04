@@ -9,12 +9,15 @@
     gap: 1rem;
     background-color: #DDF6D2;
     border-radius: 12px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     color: #537D5D;
 }
 
-
+.contact-section {
+    justify-content: center;  
+    align-items: center;       
+    min-height: calc(100vh - 160px); 
+}
+  
   
   
 .contact-form input,
