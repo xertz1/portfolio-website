@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.4ef0544e.css",
+    "main.css": "./static/css/main.33164b61.css",
     "main.js": "./static/js/main.28d7bf82.js",
     "static/media/le_goat.png": "./static/media/le_goat.94e438a00103add2d631.png",
     "static/media/object.png": "./static/media/object.6349577d142c2f5cc222.png",
@@ -10,11 +10,11 @@
     "static/media/game.png": "./static/media/game.c7d1944f55c41a917a76.png",
     "static/media/quadraScale.png": "./static/media/quadraScale.76fe94f3f04ee9996e06.png",
     "index.html": "./index.html",
-    "main.4ef0544e.css.map": "./static/css/main.4ef0544e.css.map",
+    "main.33164b61.css.map": "./static/css/main.33164b61.css.map",
     "main.28d7bf82.js.map": "./static/js/main.28d7bf82.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ef0544e.css",
+    "static/css/main.33164b61.css",
     "static/js/main.28d7bf82.js"
   ]
 }
