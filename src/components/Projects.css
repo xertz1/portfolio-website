@@ -24,14 +24,14 @@
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-    gap: 3rem;
-    padding: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
 }
 
 .project-image {
     width: 100%;
-    height: 400px;
+    height: 200px;
     border-radius: 12px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -54,6 +54,7 @@
     font-size: 1.1rem;
     margin-top: 0.75rem;
 }
+
 
 
 

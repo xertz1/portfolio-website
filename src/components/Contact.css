@@ -14,11 +14,9 @@
 
 .contact-section {
     justify-content: center;  
-    align-items: center;       
-    min-height: calc(100vh - 160px); 
+    align-items: center;
+    padding: 5%;   
 }
-  
-  
   
 .contact-form input,
 .contact-form textarea {
