@@ -6,6 +6,7 @@ import ProjectIcon from '../components/ProjectIcon'
 import objectImg from '../components/object.png'
 import gameImg from '../components/game.png'
 import quadraScaleImg from '../components/quadraScale.png'
+import smartPlanner from '../components/smartPlanner.png'
 import * as motion from "motion/react-client"
 
 const projects = [
@@ -39,6 +40,11 @@ const projects = [
         title: "Object Detection",
         image: objectImg,
         link: "https://github.com/xertz1/object_detection"
+    },
+    {
+        title: "Smart Planner",
+        image: smartPlanner,
+        link: "https://github.com/xertz1/ai-planner"
     }
 ];
 
